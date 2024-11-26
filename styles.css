@@ -16,6 +16,11 @@ section {
     background-color: darkslategray;
     color: white;
 }
+#hero img {
+    width: 74px;
+    object-fit: cover;
+    clip-path: circle(35% at 50% 40%);
+}
 
 #content {
     text-align: justify;
